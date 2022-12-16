@@ -20,7 +20,7 @@
 
 # Description
 
-The code itself for business reason is secret, but i will describe how the architecture and the flow works.
+The code itself for business reasons is secret, but i will describe how the architecture and the flow works.
 
 ## Shopify applications
 
@@ -33,9 +33,9 @@ There are two different type of applications by Shopify
 - Standalone
 - Embded
 
-This product is an MVP, so it was obvius to choose the embded type of the application.
-The shopify ecosystem provides couple of features, what makes the integration and the development experience "smooth".
-There were couple of dificulties ofCourse, but relyed on the community, all of the questionable parts of the structure was answered.
+This product is an MVP, so it was to choose the embedded type of the application.
+The shopify ecosystem provides a couple of features, what makes the integration and the development experience "smooth".
+There were a couple of difficulties with ofCourse, but relying on the community, all of the questionable parts of the structure were answered.
 
 ## Code
 
@@ -46,11 +46,11 @@ There were couple of dificulties ofCourse, but relyed on the community, all of t
 - The backend code is NodeJS and the communication between the app and the shopify works via GraphQL.
 - The application has been separated into different layers.
 
-  - Controllers
-  - Facade (Where the logic happens)
-  - DataAccessLayer
+- Controllers
+- Facade (Where the logic happens)
+- DataAccessLayer
 
-- I have used the latest Ecmascript features, and there is no any callback hell at all.
+- I have used the latest Ecmascript features, and there is no callback hell at all.
 
 ### Frontend
 
@@ -61,8 +61,8 @@ There were couple of dificulties ofCourse, but relyed on the community, all of t
 ### Hosting
 
 - The Docker container runs on DigitalOcean.
-- The reason why i have choosed this way, is the product's actual status(MVP).
-- I am familiar with the latest CI/CD solutions,but by the DigitalOcean thoose features are provided out of the box for the basic plans as well, so i didn't have to implement in the native way.
+- The reason why i have chosen this way, is the product's actual status(MVP).
+- I am familiar with the latest CI/CD solutions, but by the DigitalOcean thoose features are provided out of the box for the basic plans as well, so i didn't have to implement in the native way.
 
 ## The Product
 
@@ -72,9 +72,9 @@ There were couple of dificulties ofCourse, but relyed on the community, all of t
 
 GLS Group offers parcel, logistics and express services, throughout Europe as well as in the US and in Canada.
 
-The center of the Eastern Europe region is located in Hungary.
+The center of the Eastern European region is located in Hungary.
 
-The following countries included in this part
+The following countries are included in this part
 
 - Hungary
 - Slovakia
@@ -99,11 +99,11 @@ Through the API we can do the following things
 - Get the Parcel's status
 - Get Printed ParcelLists
 
-The documentation not the best what i have read so far, but it does the job.
+The documentation is not the best that i have read so far, but it does the job.
 
 [MyGLS API documentation](https://api.mygls.hu)
 
-This api can be used with SOAP and REST api as well. I hope it won't surprise You,but I have choosed the REST one.
+This api can be used with SOAP and REST api as well. I hope it won't surprise You, but I have chosen the REST one.
 
 ---
 
@@ -126,7 +126,7 @@ This api can be used with SOAP and REST api as well. I hope it won't surprise Yo
 - Set or modify the order's Shipping address
 - Set the shipping destination into a ParcelShop/ParcelLocker
 - Download The POD Documents of the orders
-- Check Bulk printed orders's statuses, and when they are delivered, the application will close thoose orders.
+- Check Bulk printed orders's statuses, and when they are delivered, the application will close those orders.
 
 ---
 
@@ -134,12 +134,12 @@ This api can be used with SOAP and REST api as well. I hope it won't surprise Yo
 
 <img src="./.github/ReadMe_src/images/pclshop.gif"  style="margin-top:20px">
 
-For UX reason the best way to insert a ParcelShop map into the webshop would be the checkout page, when the customer chooses the delivery methods.
-When the webshop has an active Shopify Plus subscription, than the developer has an access to modify the user's checkout page.
+For UX reasons, the best way to insert a ParcelShop map into the webshop would be the checkout page, when the customer chooses the delivery methods.
+When the webshop has an active Shopify Plus subscription, than the developer has access to modify the user's checkout page.
 
-Most of the users has a basic plan, so i had to find an another solution for them.
+Most of the users have a basic plan, so i had to find another solution for them.
 
-In this case we can insert the script into their's car page.
+In this case we can insert the script into their car page.
 Not the best way to do that, but it does the job.
 
 Customizable parts of the integration:
@@ -170,19 +170,17 @@ Demo Plan: Free
 
 Basic Plan: 5 $/30 days
 
-- Print Lalbels WITHOUT any limit
+- Print Labels WITHOUT any limit
 
 ---
 
 ## Summary
 
-This application has been made with hearth and soul.
-
 The Active development was more than 3 months long. It means i woke up EVERY day at 4 am to create this app, beside my Main Job (FullStack Developer).
 
-It was challanging to keep the ballance in my Life. I have a Wife and a Son as well, without their's support i could never make this plugin.
+It was challenging to keep the ballance in my life. I have a Wife and a Son as well, without their support i could never make this plugin.
 
-I hope you have found interesting. If you have questions, or just would like to chat about it, please feel free to contact me.
+I hope you found it interesting. If you have questions, or just would like to chat about it, please feel free to contact me.
 
 Best Wishes
 
