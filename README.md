@@ -2,6 +2,8 @@
 
 # MyGLS Plugin Lite (Eastern Europe)
 
+[Shopify App Store Link](https://apps.shopify.com/mygls-plugin-lite)
+
 <img src="./.github/ReadMe_src/images/cover.png" height=350>
 
 ### Used Technologies:
