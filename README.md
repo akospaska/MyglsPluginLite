@@ -4,7 +4,7 @@
 
 [Shopify App Store Link](https://apps.shopify.com/mygls-plugin-lite)
 
-<img src="./.github/ReadMe_src/images/cover.png" height=350>
+<img src="./.github/ReadMe_src/images/cover.png" width=100% height=100%>
 
 ### Used Technologies:
 
@@ -156,7 +156,7 @@ Customizable parts of the integration:
 
 ## Distribution
 
-<img src="./.github/ReadMe_src/images/appstore.png"  style="margin-top:20px;height:300px">
+<img src="./.github/ReadMe_src/images/appstore.png"  style="margin-top:20px"  width=100% height=100%>
 
 [Shopify App Store Link](https://apps.shopify.com/mygls-plugin-lite)
 
