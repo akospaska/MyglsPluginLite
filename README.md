@@ -166,13 +166,20 @@ The business modell is an SaaS (Software as a service)
 
 There are two different plans
 
-Demo Plan: Free
-
-- Print 2 labels/day
-
-Basic Plan: 5 $/30 days
-
-- Print Labels WITHOUT any limit
+<table>
+  <tr>
+    <th>Demo</th>
+    <th>Basic</th>
+  </tr>
+  <tr>
+    <td>Free</td>
+    <td>$5 / 30 days</td>
+  </tr>
+  <tr>
+    <td>Print 2 labels /day</td>
+    <td>Print labels without any limitations</td>
+  </tr>
+</table>
 
 ---
 
