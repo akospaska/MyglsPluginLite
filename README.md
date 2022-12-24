@@ -12,6 +12,7 @@
 
 <img src="./.github/ReadMe_src/images/nodejs.svg" width="50">
 <img src="./.github/ReadMe_src/images/graphql.svg" width="50">
+<img src="./.github/ReadMe_src/images/mongo.svg" width="50">
 <img src="./.github/ReadMe_src/images/docker.svg" width="50">
 <img src="./.github/ReadMe_src/images/mysql.svg" width="50">
 <img src="./.github/ReadMe_src/images/redis.svg" width="50">
