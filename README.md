@@ -171,14 +171,17 @@ There are two different plans
   <tr>
     <th>Demo</th>
     <th>Basic</th>
+    <th>Premium</th>
   </tr>
   <tr>
     <td>Free</td>
     <td>$5 / 30 days</td>
+    <td>$10 / 30 days</td>
   </tr>
   <tr>
     <td>Print 2 labels /day</td>
     <td>Print labels without any limitations</td>
+    <td>Extra automated features</td>
   </tr>
 </table>
 
